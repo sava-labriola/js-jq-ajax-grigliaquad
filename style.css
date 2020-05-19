@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+}
+
+.griglia {
+    margin: auto;
+    width: 480px;
+    height: 480px;
+}
+
+.quadrato {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.giallo {
+    background-color: yellow;
+}
+
+.verde {
+    background-color: green;
+}
